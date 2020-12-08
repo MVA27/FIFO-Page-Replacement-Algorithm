@@ -15,7 +15,7 @@ void main()
 
 	for(i=0;i<numberOfFrames;i++)
 	{
-		farmesBuffer[i] = 0;
+		farmesBuffer[i] = -1; 				//Set as -1 because there can exist a PAGE with Number 0. Aim is to assign default value as minimum as possible minimum
 	}
 
 	printf("\nENTER NUMBER OF PAGES  : ");
