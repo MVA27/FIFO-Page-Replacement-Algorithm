@@ -15,7 +15,7 @@ void main()
 
 	for(i=0;i<numberOfFrames;i++)
 	{
-		farmesBuffer[i] = 0;
+		farmesBuffer[i] = -1;
 	}
 
 	printf("\nENTER NUMBER OF PAGES  : ");
